@@ -23,7 +23,7 @@ li{
 }
 .head-items{
     justify-content: center;
-    margin-left:10%;
+    margin-left:7%;
     display:flex;
     font-size:20px;
     font-weight:bolder;
@@ -51,187 +51,7 @@ hr{
 #menu-toggle{
     display:none;
 }
- @media screen and (max-width: 480px){
-    body{
-        margin:0;
-        padding:0;
-    }
-     .head-sec .logo{
-        width:20px;
-        margin-left:5px;
-    }
-    .head-items{
-        position: absolute;
-        top: 25%;
-        display: none; 
-    }
-    #menu-toggle:checked ~ .head-items,li,a{
-        display:flex;
-        flex-direction: row;
-        font-size: 12px;
-        gap:7px;
-        padding-left: 0%;
-        padding-right:0%;
-    }
-    .menu-icon{
-        display:block;
-        cursor:pointer;
-        margin-left:100%;
-        font-size: 30px; 
-        color:black;     
-    }
-    .section-one{
-        display:flex;
-        flex-direction: column;   
-    }
-    
-      .sec1-left img{
-        max-width:460px;
-        position:relative;
-        
-    }
-    .sec1-left .img-text{
-        position:absolute;
-        top: 60%; 
-        left: 43%; 
-    }
-    .sec1-left .img-text h1{
-        font-size:40px;
-        text-wrap: nowrap;
-       
-    }
-    .sec1-left .img-text p{
-        font-size: 15px;
-        font-family: cursive;  
-       
-    }
-    .sec1-left .img-text button{
-        padding:10px;
-        font-size:15px;
-    }
-    .section-right{
-        display:flex;
-        flex-direction: column;
-    }
-    .section-right .sec1-right .women img{
-      margin-left:45%;
-    }
-    .section-right .sec1-right .men img{
-      margin-left:45%;
-    }
-    .section-right .sec2-right .kid img{
-      margin-left:35%;
-    }
-    .section-right .sec2-right .access img{
-      margin-left:35%;
-    }
-    .women .women-content{
-        top: 140%;
-        left:65%; 
-        bottom:20%;     
-    }
-    .men .men-content{  
-        top: 210%;
-        left:65%; 
-        bottom:20%;       
-    }
-    .kid .kid-content{
-        top: 280%;
-        left:60%; 
-        bottom:20%;  
-    }
-    .access .access-content{
-        top: 340%;
-        left:60%; 
-        bottom:20%;    
-    }
-    .men-collections .next,.prev{
-        display:none;
-    }
-    .sec2 .men-heading p{
-      font-size:15px;
-      
-    }
-    .men-collections{
-        display:flex;
-        flex-direction:column;
-    }
-    .men1 .men2 .men3,img{
-        max-width:330px;
-    }
-    .women-collections .next,.prev{
-        display:none;
-    }
-    .women-collections{
-        display:flex;
-        flex-direction:column;
-    }
-    .women1 .women2 .women3,img{
-        max-width:330px;
-    }
-    .kids-collections .next,.prev{
-        display:none;
-    }
-    .kids-collections{
-        display:flex;
-        flex-direction:column;
-    }
-    .kid1 .kid2 .kid3,img{
-        max-width:330px;
-    }
-    .sec7-left{
-      display:flex;
-      flex-direction: column;
-    }
-    .sec5{
-      display:flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      max-width:100%;
-    }
-    .sec5 .sec5-left p{
-      text-wrap: wrap;
-      line-break: anywhere;
-    }
-    .footer-main .footer-part{
-        background-color: rgb(80, 77, 77);
-        height:1200px;
-        font-size: 20px;
-        width:480px;
-      }
-    .footer-part{
-        display:flex;
-        flex-direction:column;
-        flex-wrap: wrap;  
-    }
-    .footer-main .footer-last{
-        background-color: rgb(102, 98, 98);
-        height:100px;
-        width:480px;
-        margin-left:0;
-        margin-top:0;
-    } 
-    .footer-main .footer-icons{
-         margin-left: 20px;
- }
 
-}
-
-    
- /* @media (max-width: 1209px){
-    .logo img{
-        width:150px;
-    }
-    .head-items {
-        gap:15px;
-        font-size:15px;
-        font-weight: bold;
-    }
-    .head-items li i{
-        display:none;
-    }   
-  
-} */
 /* Header finished */
 
 /* Section 1*/
@@ -245,9 +65,9 @@ hr{
 
   .sec1-left img{
     margin-top:20px;
-    width:750px;
-    position:relative;
-    
+    width:700px;
+    height:650px;
+    position:relative; 
 }
 .img-text{
     position:absolute;
@@ -286,16 +106,16 @@ hr{
 }
 
  .women img{
-   width:330px;
+   width:310px;
    height:310px;
     position:relative;
     margin-top:20px;
-    margin-left:20px;
+    margin-left:40px;
 }
 .women-content{
     position: absolute;
-    top: 40%; 
-    left: 60%; 
+    top: 43%; 
+    left: 63%; 
     transform: translate(-50%, -50%);
     color: white;
 } 
@@ -312,16 +132,16 @@ hr{
     
 }
  .men img{
-   width:330px;
+   width:310px;
    height:310px;
     position:relative;
-    margin-top:20px;
-    margin-left: 20px;
+    margin-top:30px;
+    margin-left: 40px;
 }
 .men-content {
     position: absolute;
-    top: 88%; 
-    left: 60%; 
+    top: 95%; 
+    left: 63%; 
     transform: translate(-50%, -50%);
     color:white;
 } 
@@ -345,8 +165,8 @@ hr{
 } 
  .kid-content{
     position: absolute;
-    top: 40%; 
-    left: 85%; 
+    top: 43%; 
+    left: 88%; 
     transform: translate(-50%, -50%);
     color: white;
  }
@@ -365,14 +185,14 @@ hr{
     width:330px;
    height:310px;
    position:relative;
-   top:40px;
+   top:46px;
    left:20px;
   
 }    
 .access-content{
     position: absolute;
-    top: 88%; 
-    left: 83%; 
+    top: 95%; 
+    left: 85%; 
     transform: translate(-50%, -50%);
     color: white;
  }
@@ -411,12 +231,10 @@ hr{
     display:inline-flex;
 }
 .men1,.men2,.men3{
-    margin:40px;
+    margin:20px;
 }
 .next,.prev{
     margin-top:200px;
-    margin-left:10px;
-    margin-right:10px;
 }
 .tag-star{
     display: flex;
@@ -452,7 +270,7 @@ hr{
       display:inline-flex;
   }
   .women1,.women2,.women3{
-      margin:40px;
+      margin:20px;
   }
   .next,.prev{
       margin-top:200px;
@@ -493,7 +311,7 @@ hr{
       display:inline-flex;
   }
   .kid1,.kid2,.kid3{
-      margin:40px;
+      margin:20px;
   }
   .next,.prev{
       margin-top:200px;
@@ -634,8 +452,7 @@ hr{
   }
   .sec7-right{
     display:flex;
-    Margin-top:3%;
-    margin-left:5%;
+    Margin-top:2%;
   }
   .sec7-form {
     margin-top:3%;
@@ -695,3 +512,196 @@ hr{
       color:aqua;
       cursor: pointer;
   }  
+/* media queries start */
+@media screen and (max-width: 480px){
+  body{
+      margin:0;
+      padding:0;
+  }
+   .head-sec .logo{
+      width:20px;
+      margin-left:5px;
+  }
+  .head-items{
+      position: absolute;
+      top: 25%;
+      display: none; 
+  }
+  #menu-toggle:checked ~ .head-items,li,a{
+      display:flex;
+      flex-direction: row;
+      font-size: 12px;
+      gap:7px;
+      padding-left: 0%;
+      padding-right:0%;
+  }
+  .menu-icon{
+      display:block;
+      cursor:pointer;
+      font-size: 30px; 
+      color:black;   
+      margin-left:70%;  
+  }
+  .fa-angle-down{
+    display:none;
+  }
+  .section-one{
+      display:flex;
+      flex-direction: column;   
+  }
+  
+    .sec1-left img{
+      max-width:460px;
+      position:relative;
+      
+  }
+  .sec1-left .img-text{
+      position:absolute;
+      top: 60%; 
+      left: 43%; 
+  }
+  .sec1-left .img-text h1{
+      font-size:40px;
+      text-wrap: nowrap;
+     
+  }
+  .sec1-left .img-text p{
+      font-size: 15px;
+      font-family: cursive;  
+     
+  }
+  .sec1-left .img-text button{
+      padding:10px;
+      font-size:15px;
+  }
+  .section-right{
+      display:flex;
+      flex-direction: column;
+  }
+  .section-right .sec1-right .women img{
+    margin-left:25%;
+    width:350px;
+  }
+  .section-right .sec1-right .men img{
+    margin-left:25%;
+    width:350px;
+  }
+  .section-right .sec2-right .kid img{
+    margin-left:13%;
+  }
+  .section-right .sec2-right .access img{
+    margin-left:13%;
+  }
+  .women .women-content{
+      top: 190%;
+      left:53%; 
+      bottom:30%;     
+  }
+  .men .men-content{  
+      top: 265%;
+      left:50%; 
+      bottom:30%;       
+  }
+  .kid .kid-content{
+      top: 330%;
+      left:50%; 
+      bottom:30%;  
+  }
+  .access .access-content{
+      top: 400%;
+      left:40%; 
+      bottom:30%;    
+  }
+  .men-collections .next,.prev{
+      display:none;
+  }
+  .sec2 .men-heading p{
+    font-size:15px;
+    
+  }
+  .men-collections{
+      display:flex;
+      flex-direction:column;
+  }
+  .men1 .men2 .men3,img{
+      max-width:460px;
+  }
+  .women-collections .next,.prev{
+      display:none;
+  }
+  .women-collections{
+      display:flex;
+      flex-direction:column;
+  }
+  .women1 .women2 .women3,img{
+      max-width:330px;
+  }
+  .kids-collections .next,.prev{
+      display:none;
+  }
+  .kids-collections{
+      display:flex;
+      flex-direction:column;
+  }
+  .kid1 .kid2 .kid3,img{
+      max-width:330px;
+  }
+  .sec7-left{
+    display:flex;
+    flex-direction: column;
+  }
+  .sec5{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width:100%;
+  }
+  .sec5 .sec5-left p{
+    text-wrap: wrap;
+    line-break: anywhere;
+  }
+  .footer-main .footer-part{
+      background-color: rgb(80, 77, 77);
+      height:1200px;
+      font-size: 20px;
+      width:460px;
+    }
+  .footer-part{
+      display:flex;
+      flex-direction:column;
+      flex-wrap: wrap; 
+  }
+  .footer-part,.footer1 .footer2 .footer3 .footer4{
+    margin-left:5%;
+  }
+  .footer-main .footer-last{
+      background-color: rgb(102, 98, 98);
+      height:100px;
+      width:480px;
+      margin-left:0;
+      margin-top:0;
+  } 
+  .footer-main .footer-icons{
+       margin-right: 30%;
+}
+.footer-last p{
+  margin-right:8%;
+}
+
+}
+
+  
+/* @media (max-width: 1209px){
+  .logo img{
+      width:150px;
+  }
+  .head-items {
+      gap:15px;
+      font-size:15px;
+      font-weight: bold;
+  }
+  .head-items li i{
+      display:none;
+  }   
+
+} */
